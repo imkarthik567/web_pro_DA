@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Border Properties Demo</title>
+<style>
+div{
+height:100px;
+width:100px;
+margin:30px;
+}
+.box1{
+border: 10px solid black;
+}
+.box2{
+border: 10px solid black;
+border-width: 10px 20px 30px 40px;
+}
+.box3{
+border: 10px dashed blue;
+}
+.box4{
+border: 10px double blue;
+}
+.box5{
+border: 10px solid black;
+border-radius:20px;
+}
+.box6{
+outline:10px solid black;
+outline-offset:15px;
+}
+</style>
+</head>
+<body>
+<div class="box1"><p>card with border shorthand</p></div>
+<div class="box2"><p>card with different border on each side</p></div>
+<div class="box3"><p>card with dashed or dotted</p></div>
+<div class="box4"><p>card with double</p></div>
+<div class="box5"><p>card with border-radius (rounded corners)</p></div>
+<div class="box6"><p>card with outline and outline-offset (to show difference from
+border)</p></div>
+</body>
+</html>
